@@ -1,4 +1,15 @@
-.class-name {
-  background: blue;
-  margin: 100px;
+.patient-information {
+  margin: 20px;
+}
+
+.demographic-info {
+  &-heading {
+    margin: 5px 0 0 0;
+    font-size: 8px;
+  }
+
+  &-detail {
+    margin: 0 0 10px;
+    font-size: 16px;
+  }
 }
