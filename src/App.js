@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./main.scss";
+
+import Component from "./component";
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          <Component />
         </a>
       </header>
     </div>
