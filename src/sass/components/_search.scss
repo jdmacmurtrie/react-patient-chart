@@ -1,0 +1,21 @@
+.search {
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: white;
+  font-size: 10px;
+}
+
+.input-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.error {
+  font-size: 8px;
+  color: red;
+}
+
+.search-button {
+  margin-top: 5px;
+}
