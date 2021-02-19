@@ -9,9 +9,11 @@ const conditionHeadings = [
 export default ({ conditions = [] }) => {
   if (!conditions.length) {
     return (
-      <td align="center" colspan="2">
-        No Outstanding Conditions
-      </td>
+      <tr>
+        <td align="center" colSpan="2">
+          No Outstanding Conditions
+        </td>
+      </tr>
     );
   }
 
