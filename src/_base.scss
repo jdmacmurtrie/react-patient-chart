@@ -1,15 +1,72 @@
 .patient-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 20px;
 }
 
-.demographic-info {
-  &-heading {
-    margin: 5px 0 0 0;
-    font-size: 8px;
+.search {
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: white;
+  font-size: 10px;
+}
+
+.input-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.error {
+  font-size: 8px;
+  color: red;
+}
+
+.search-button {
+  margin-top: 5px;
+}
+
+table {
+  min-width: 350px;
+  border: 2px solid black;
+  margin: 25px auto;
+  font-size: 10px;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.leading-row {
+  &-demographic {
+    font-weight: bold;
+    background-color: lightblue;
   }
 
-  &-detail {
-    margin: 0 0 10px;
-    font-size: 16px;
+  &-condition {
+    font-weight: bold;
+    background-color: aquamarine;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.cheat-sheet {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 5px;
+  background-color: white;
+  padding: 5px;
+
+  ul {
+    margin: 0;
+    padding: 0 0 0 10px;
   }
 }
